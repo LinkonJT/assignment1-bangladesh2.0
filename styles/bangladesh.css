@@ -1,7 +1,7 @@
 .fira-sans-normal {
     font-family: "Fira Sans", serif;
     font-optical-sizing: auto;
-    font-weight:
+    font-weight: normal;
     font-style: normal;
     font-variation-settings: "wdth" 100;
   }
@@ -10,10 +10,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: ;
+    width: 100%;
     /* padding: 28px 160px; */
     margin-bottom: 20px;
-
 }
 
 .page-top{
@@ -21,17 +20,17 @@
     font-weight: 800;
 }
 
+/* sign-in top */
 .btn-top{
     padding: 15px 30px;
-    text-shadow: 0px 2px rgba(0, 0, 0, 0.25);
+    color: #006A50;
+    text-shadow: 0px 2x 2px rgba(0, 0, 0, 0.25)
     font-size: 18px;
-    font-weight: 550;         
+    font-weight: 650;        
     border-color: #006A50;
     border-radius: 5px;
     background-color: white;
-           
 }
-
 
 /* Banner design */
 
@@ -82,3 +81,86 @@ body{
     display: block;
     align-items: center;
 }
+
+/* 2. The Vision of Future */
+
+
+.vision-future{
+    margin-top: 80px;
+}
+.vision-future-title{
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+    margin: 0;
+}
+
+.vision-description{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.vision-container {
+    display: flex;
+    margin-bottom: 32px;
+    gap: 24px;
+}
+
+.vision-digitrans{
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.btn-digitrans{
+    background-color: rgba(84, 144, 245, 1);
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+}
+
+.vision-greenen{
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: #A1E7C7;
+    padding: 32px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-greenen{
+    background-color: rgba(9, 161, 92, 1);
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.vision-moderninfra{
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: rgba(247, 235, 207, 1);
+    padding: 24px 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-moderninfra{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
